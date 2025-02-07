@@ -1,4 +1,4 @@
-#### ⚖️ Capítulo 5: Marcos Regulatorios Globales <a name="capítulo-5-marcos-regulatorios-globales"></a>
+# 🤖🛡️ Capítulo 5: Marcos Regulatorios Internacionales
 
 La ciberseguridad no solo se trata de tecnología y herramientas; un componente fundamental es el **marco legal y regulatorio** que define las **obligaciones de las organizaciones** en cuanto a la protección de datos y la seguridad de la información, así como los **derechos de los individuos**.  Comprender estos marcos es crucial para cualquier profesional de ciberseguridad.  En este capítulo, exploraremos dos de los marcos más relevantes a nivel global: el **GDPR** (Reglamento General de Protección de Datos) y el **NIST CSF** (Marco de Ciberseguridad del NIST).
 
