@@ -152,7 +152,7 @@ La **Gestión de Identidades y Accesos (IAM)** no es una tecnología única, sin
     #### 📊 **Caso de Estudio Ampliado: Filtración de Datos de Sony Pictures (2014) –  Anatomía de un Fallo de Confidencialidad**
     <div style="float:right; margin-left: 15px;">
       
-        <p style="font-size:0.8em; margin-top: 5px; font-style: italic; text-align:center;">Logotipo de Sony Pictures Entertainment.</p>
+        
     </div>
     <p style="font-size:1.1em;">El ataque a Sony Pictures Entertainment (SPE) en noviembre de 2014 es un caso de estudio **fundamental para entender las múltiples dimensiones de la confidencialidad y las graves consecuencias de su falta de protección.**  No se trató de una única vulnerabilidad, sino de una **acumulación de fallos en diferentes capas de seguridad relacionados con la confidencialidad**,  que permitieron a los atacantes comprometer la red de SPE, exfiltrar grandes cantidades de información sensible y causar un daño significativo a la empresa.</p>
 
