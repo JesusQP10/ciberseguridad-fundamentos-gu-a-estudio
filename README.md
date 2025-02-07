@@ -6,7 +6,6 @@
 
 **Tabla de Contenidos**
 
-[**¡Generar automáticamente con TOC Generator!**  - Enlaza a las secciones principales de este README y a las carpetas de cada curso.  Ejemplo abajo]
 
 1.  [Sobre esta Guía de Estudio](#sobre-esta-guía-de-estudio)
 2.  [¿Para quién es esta guía?](#para-quién-es-esta-guía)
@@ -118,7 +117,6 @@ A continuación, se presenta la estructura de la certificación y los enlaces a 
 
 Este recurso se distribuye bajo la licencia [**Creative Commons Attribution Share-Alike 4.0 International License (CC BY-SA 4.0)**](LICENSE).
 
-[**Enlaza aquí al archivo `LICENSE` en la raíz de tu repositorio** - Asegúrate de que el enlace `LICENSE` apunte correctamente al archivo de licencia en tu repositorio]
 
 Esto significa que eres **libre de usar, compartir, adaptar y distribuir este recurso, incluso comercialmente**, siempre y cuando **des crédito a los autores originales** y **compartas tus obras derivadas bajo la misma licencia CC BY-SA 4.0.**  Esta licencia **promueve el conocimiento abierto y compartido** y asegura que este recurso siga siendo **libre y accesible para todos.**
 
