@@ -30,13 +30,11 @@
 
 ## Sobre esta Guía de Estudio
 
-¡Hola! Soy Jeús Quintero y actualmente estoy cursando la **Certificación Profesional de Ciberseguridad de Google en Coursera**.  Motivado por la riqueza y profundidad de esta certificación, he decidido crear esta **guía de estudio Open Source y colaborativa** para apoyar a otros estudiantes y profesionales en su camino hacia la certificación.
+¡Hola! Soy Jeús Quintero y actualmente estoy cursando la **Certificación Profesional de Ciberseguridad de Google en Coursera**.  Motivado por la posibilidad de compartir los conocimientos de esta certificación, he decidido crear esta **guía de estudio Open Source** para apoyar a otros estudiantes y profesionales en su camino hacia la certificación.
 
-Este repositorio es, esencialmente, **mi propio temario resumido y en constante crecimiento de cada uno de los 8 cursos de la certificación.**  A medida que avanzo por los cursos, iré **resumiendo y organizando los conceptos clave, las notas de estudio y los recursos más importantes** que encuentro en cada módulo.
+Este repositorio es, esencialmente, **mi propio temario resumido y en constante crecimiento de cada uno de los 8 cursos de la certificación.**  A medida que vaya avanzando por los cursos, iré **resumiendo y organizando los conceptos clave, las notas de estudio y los recursos más importantes** que encuentro en cada módulo.
 
-El objetivo es convertir esta guía en un **recurso exhaustivo, claro y accesible para todos aquellos que deseen obtener esta prestigiosa certificación.**  Aquí encontrarás **material de estudio organizado por curso y capítulo,**  con el fin de facilitar la comprensión, la preparación y el desarrollo de habilidades prácticas en ciberseguridad.
-
-**Mi objetivo es crear la guía de estudio *más completa y útil en español* para esta certificación.**  Creo en el poder del **conocimiento abierto y compartido** para democratizar el acceso a la educación en ciberseguridad y formar a la próxima generación de profesionales.
+El objetivo es convertir esta guía en un **recurso exhaustivo, claro y accesible para todos aquellos que deseen obtener los conocimientos de esta certificación.**  Aquí encontrarás **material de estudio organizado por curso y capítulo,**  con el fin de facilitar la comprensión, la preparación y el desarrollo de habilidades prácticas en ciberseguridad.
 
 
 ## ¿Para quién es esta guía?
@@ -122,11 +120,9 @@ Esto significa que eres **libre de usar, compartir, adaptar y distribuir este re
 
 ## Autor/es
 
-Esta guía de estudio es un proyecto colaborativo impulsado por la comunidad.
-
 Jesús Quintero Priego.
 
-**¡Gracias a todos los contribuyentes que hagan posible este recurso!**
+**¡Gracias a todos los contribuyentes que aporten a este recurso!**
 
 ---
 
