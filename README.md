@@ -33,7 +33,7 @@
 
 ## Sobre esta Guía de Estudio
 
-¡Hola! Soy Jeús Quintero y actualmente estoy cursando la **Certificación Profesional de Ciberseguridad de Google en Coursera**.  Motivado por la posibilidad de compartir los conocimientos de esta certificación, he decidido crear esta **guía de estudio Open Source** para apoyar a otros estudiantes y profesionales en su camino hacia la certificación.
+¡Hola! Soy JesúsQP y actualmente estoy cursando la **Certificación Profesional de Ciberseguridad de Google en Coursera**.  Motivado por la posibilidad de compartir los conocimientos de esta certificación, he decidido crear esta **guía de estudio Open Source** para apoyar a otros estudiantes y profesionales en su camino hacia la certificación.
 
 Este repositorio es, esencialmente, **mi propio temario resumido y en constante crecimiento de cada uno de los 8 cursos de la certificación.**  A medida que vaya avanzando por los cursos, iré **resumiendo y organizando los conceptos clave, las notas de estudio y los recursos más importantes** que encuentro en cada módulo.
 
@@ -123,7 +123,7 @@ Esto significa que eres **libre de usar, compartir, adaptar y distribuir este re
 
 ## Autor/es
 
-Jesús Quintero Priego.
+JesúsQP10.
 
 **¡Gracias a todos los contribuyentes que aporten a este recurso!**
 
