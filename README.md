@@ -1,7 +1,8 @@
+### <font color="#00B4D8">Certificación Profesional de Ciberseguridad de Google:</font> Guía de Estudio Integral en Español
 
-<font color="#00B4D8">Certificación Profesional de Ciberseguridad de Google:</font> Guía de Estudio Integral en Español
+
 ## ¡Domina la Ciberseguridad con Recursos Open Source para los 8 Cursos!
-
+## <p align="center"><kbd> 🛡️ </kbd>  <kbd> 🔒 </kbd> <kbd> 🔑 </kbd> <kbd> 💻 </kbd> <kbd> ⚡ </kbd></p>
 
 **Bienvenido/a al recurso  en español para la Certificación Profesional de Ciberseguridad de Google.**  Este repositorio Open Source ha sido creado con el objetivo de proporcionar la **guía de estudio más completa, clara y accesible** para superar con éxito los **8 cursos** que componen esta prestigiosa certificación profesional.
 
