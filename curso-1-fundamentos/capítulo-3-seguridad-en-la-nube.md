@@ -1,4 +1,4 @@
-# Capítulo 3: Seguridad en la Nube -  Protegiendo los Activos Digitales en el Nuevo Paradigma
+# ☁️ 🔒 Capítulo 3: Seguridad en la Nube -  Protegiendo los Activos Digitales en el Nuevo Paradigma
 
 ## 3.1 Introducción a la Seguridad en la Nube:  Un Nuevo Paradigma, Nuevos Desafíos
 
