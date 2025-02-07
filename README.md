@@ -64,16 +64,16 @@ Esta guía está organizada siguiendo la estructura de los 8 cursos de la Certif
 
 A continuación, se presenta la estructura de la certificación y los enlaces a las carpetas de cada curso dentro de esta guía:
 
-*   **[Curso 1: Fundamentos de la Ciberseguridad](curso-1-fundamentos-ciberseguridad/)** -  [Descripción Breve del Curso 1 Aquí]
-*   **[Curso 2: Redes y Ciberseguridad en el Mundo Moderno](curso-2-redes-ciberseguridad/)** -  [Descripción Breve del Curso 2 Aquí]
-*   **[Curso 3: Sistemas Operativos y Tú: Convirtiéndote en un Usuario Eléctrico](curso-3-sistemas-operativos-ciberseguridad/)** -  [Descripción Breve del Curso 3 Aquí]
-*   **[Curso 4: Administración de Sistemas y Servicios de Infraestructura](curso-4-administracion-sistemas-seguridad/)** -  [Descripción Breve del Curso 4 Aquí]
-*   **[Curso 5: Activos de Seguridad de Red y Endpoints](curso-5-seguridad-redes-infraestructura/)** -  [Descripción Breve del Curso 5 Aquí]
-*   **[Curso 6: Seguridad de Datos, Aplicaciones y la Nube](curso-6-seguridad-datos-aplicaciones-cloud/)** -  [Descripción Breve del Curso 6 Aquí]
-*   **[Curso 7: Poniéndolo Todo Junto: Gestión de la Seguridad, Riesgo y Cumplimiento](curso-7-gestion-incidentes-e-respuesta/)** -  [Descripción Breve del Curso 7 Aquí]
-*   **[Curso 8: Preparación para la Carrera Profesional de Ciberseguridad](curso-8-preparacion-para-la-carrera/)** -  [Descripción Breve del Curso 8 Aquí]
+*   **[Curso 1: Fundamentos de la Ciberseguridad](curso-1-fundamentos-ciberseguridad/)  
+*   **[Curso 2: Redes y Ciberseguridad en el Mundo Moderno](curso-2-redes-ciberseguridad/)
+*   **[Curso 3: Sistemas Operativos y Tú: Convirtiéndote en un Usuario Eléctrico](curso-3-sistemas-operativos-ciberseguridad/)** - 
+*   **[Curso 4: Administración de Sistemas y Servicios de Infraestructura](curso-4-administracion-sistemas-seguridad/)
+*   **[Curso 5: Activos de Seguridad de Red y Endpoints](curso-5-seguridad-redes-infraestructura/)
+*   **[Curso 6: Seguridad de Datos, Aplicaciones y la Nube](curso-6-seguridad-datos-aplicaciones-cloud/)
+*   **[Curso 7: Poniéndolo Todo Junto: Gestión de la Seguridad, Riesgo y Cumplimiento](curso-7-gestion-incidentes-e-respuesta/)
+*   **[Curso 8: Preparación para la Carrera Profesional de Ciberseguridad](curso-8-preparacion-para-la-carrera/)
 
-[**¡Añadir aquí descripciones breves para cada curso!** -  Puedes usar las descripciones oficiales de Google o crear tus propias versiones concisas]
+
 
 ## Características Destacadas de esta Guía
 
