@@ -346,6 +346,19 @@ La implementación de Zero Trust en la nube requiere una **combinación de *pol�
 
 Para **visualizar mejor el cambio de paradigma de seguridad que representa Zero Trust en la nube**,  podemos **comparar la arquitectura Zero Trust con el modelo tradicional de "castillo y foso" (firewall perimetral) en un entorno cloud.**  Un **diagrama comparativo** puede ilustrar las **diferencias clave entre ambos modelos** y **cómo Zero Trust aborda las limitaciones del modelo tradicional en la nube.**
 
+#### 📌 Tabla Comparativa: Modelo de Seguridad "Castillo y Foso" vs. Zero Trust en la Nube
+
+| Característica           | Modelo Tradicional "Castillo y Foso"                                  | Modelo Zero Trust                                                                 |
+|--------------------------|-----------------------------------------------------------------------|-----------------------------------------------------------------------------------|
+| **Perímetro de Seguridad** | Fuerte perímetro definido (firewall). Confianza implícita dentro.       | Perímetro difuso o inexistente.  No hay perímetro de confianza implícita.         |
+| **Modelo de Confianza**    | Confianza implícita en usuarios, dispositivos y aplicaciones internas. | "Nunca Confíes, Siempre Verifica".  Ninguna confianza implícita, verificación continua. |
+| **Verificación**          | Verificación fuerte solo en el perímetro (autenticación inicial).      | Verificación continua y contextual en cada solicitud de acceso. MFA obligatorio.     |
+| **Control de Acceso**     | Control de acceso perimetral. Reglas de firewall amplias.             | Microsegmentación granular.  Políticas de acceso dinámicas y basadas en contexto.   |
+| **Visibilidad & Control**  | Visibilidad y control centrados en el perímetro.  Menos visibilidad interna. | Visibilidad y control granular en toda la infraestructura.  Monitorización exhaustiva. |
+| **Adaptabilidad Cloud**    | No adaptado al entorno cloud. Perímetro difuso, acceso remoto común.   | Diseñado para entornos cloud.  Adaptado a la naturaleza dinámica y sin perímetro.    |
+| **Foco de Seguridad**     | Prevenir intrusiones al perímetro.                                    | Minimizar el impacto de las brechas.  Contención, detección y respuesta rápidas.    |
+
+<p style="font-size:0.9em; margin-top: 5px; font-style: italic;">Tabla Comparativa:  Modelo de Seguridad "Castillo y Foso" vs. Zero Trust en la Nube.  Resumen de las diferencias clave y el cambio de paradigma.</p>
 
 
 **Columna Izquierda (Castillo y Foso):**
