@@ -1,13 +1,4 @@
-# <font color="#00B4D8"> 	🔑🔐Ciberseguridad:</font> Principios, Amenazas y Defensas
-## Un enfoque integral para profesionales y estudiantes
-### 🔒 Tema: Fundamentos, Amenazas Modernas y Tecnologías Clave
-
----
-
-## Parte I: Fundamentos de la Ciberseguridad
-
-<div style="background-color:#2D2D2D; padding: 12px; color:white; border-radius: 7px; text-align:center;">
-    <h2 style="margin-top:0; margin-bottom: 8px;"><kbd> 🔑 </kbd> Capítulo 1: La Tríada CIA – El Pilar Fundamental de la Ciberseguridad</h2>
+# 📚 🔐 🤫Capítulo 1: La Tríada CIA – El Pilar Fundamental de la Ciberseguridad</h2>
     <p style="font-size:1.1em; margin-bottom: 12px;">El modelo que define los objetivos esenciales de la seguridad de la información</p>
     🔑 **Confidencialidad | Integridad | Disponibilidad**
     <br>
