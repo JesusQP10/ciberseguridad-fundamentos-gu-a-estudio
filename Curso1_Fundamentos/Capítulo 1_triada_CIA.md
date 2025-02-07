@@ -50,7 +50,7 @@ La confidencialidad no se logra con una única herramienta, sino a través de un
 
 **<font color="#00B4D8">Cifrado de Datos:  La Fortaleza Criptográfica</font>**
 
-[Image of Ilustración del proceso de Cifrado y Descifrado, mostrando texto plano transformándose en texto cifrado y viceversa, con llaves representando las claves]
+
 <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">El Cifrado: Convirtiendo datos legibles en ilegibles para proteger la confidencialidad.</p>
 
 El **cifrado** es una técnica fundamental para la confidencialidad que transforma la información legible en un formato **ilegible, llamado "texto cifrado" o "ciphertext"**.  Solo aquellos que poseen la **clave de descifrado correcta** pueden **revertir este proceso y convertir el texto cifrado de nuevo en su forma original legible, conocida como "texto plano" o "plaintext"**.  El cifrado protege la confidencialidad de la información **durante el almacenamiento (data at rest) y durante la transmisión (data in transit)**.
@@ -94,7 +94,6 @@ El **cifrado** es una técnica fundamental para la confidencialidad que transfor
 
 **<font color="#00B4D8">Gestión de Identidades y Accesos (IAM):  El Guardián de las Puertas Digitales</font>**
 
-[Image of Representación visual de IAM (Gestión de Identidades y Accesos), mostrando un "guardián" o "portero" digital controlando el acceso a sistemas y datos a diferentes usuarios.]
 <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">IAM: Gestionando quién tiene acceso a qué recursos digitales.</p>
 
 La **Gestión de Identidades y Accesos (IAM)** no es una tecnología única, sino un **marco integral de políticas, procesos y tecnologías** que permiten a las organizaciones **gestionar de forma centralizada y segura las identidades digitales de sus usuarios (empleados, clientes, socios, sistemas, aplicaciones) y controlar su acceso a los recursos de información.**  IAM es esencial para implementar la confidencialidad a escala organizacional,  asegurando que **solo las personas y sistemas autorizados tengan acceso a los datos y aplicaciones que necesitan para realizar su trabajo.**
@@ -152,7 +151,7 @@ La **Gestión de Identidades y Accesos (IAM)** no es una tecnología única, sin
 <div style="background-color:#f0f0f0; padding: 12px; border-radius: 7px;">
     #### 📊 **Caso de Estudio Ampliado: Filtración de Datos de Sony Pictures (2014) –  Anatomía de un Fallo de Confidencialidad**
     <div style="float:right; margin-left: 15px;">
-        [Image of Logo de Sony Pictures]
+      
         <p style="font-size:0.8em; margin-top: 5px; font-style: italic; text-align:center;">Logotipo de Sony Pictures Entertainment.</p>
     </div>
     <p style="font-size:1.1em;">El ataque a Sony Pictures Entertainment (SPE) en noviembre de 2014 es un caso de estudio **fundamental para entender las múltiples dimensiones de la confidencialidad y las graves consecuencias de su falta de protección.**  No se trató de una única vulnerabilidad, sino de una **acumulación de fallos en diferentes capas de seguridad relacionados con la confidencialidad**,  que permitieron a los atacantes comprometer la red de SPE, exfiltrar grandes cantidades de información sensible y causar un daño significativo a la empresa.</p>
