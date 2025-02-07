@@ -1,6 +1,4 @@
-<p align="center">
-  <span style="font-size: 40px;"><kbd> 🛡️ </kbd>  <kbd> 🔒 </kbd> <kbd> 🔑 </kbd> <kbd> 💻 </kbd> <kbd> ⚡ </kbd></span>
-</p>
+
 <span style="font-size: 40px;"><font color="#00B4D8">Certificación Profesional de Ciberseguridad de Google:</font> Guía de Estudio Integral en Español</span>
 ## ¡Domina la Ciberseguridad con Recursos Open Source para los 8 Cursos!
 
