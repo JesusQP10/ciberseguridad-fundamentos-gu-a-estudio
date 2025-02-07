@@ -10,25 +10,24 @@
 
 **Tabla de Contenidos**
 
-
-1.  [Sobre esta Guía de Estudio](#sobre-esta-guía-de-estudio)
-2.  [¿Para quién es esta guía?](#para-quién-es-esta-guía)
-3.  [¿Qué encontrarás en esta guía?](#qué-encontrarás-en-esta-guía)
-4.  [Estructura de la Guía: Los 8 Cursos de la Certificación](#estructura-de-la-guía-los-8-cursos-de-la-certificación)
-    *   [Curso 1: Fundamentos de la Ciberseguridad](#curso-1-fundamentos-de-la-ciberseguridad)
-    *   [Curso 2: Redes y Ciberseguridad en el Mundo Moderno](#curso-2-redes-y-ciberseguridad-en-el-mundo-moderno)
-    *   [Curso 3: Sistemas Operativos y Tú: Convirtiéndote en un Usuario Eléctrico](#curso-3-sistemas-operativos-y-tú-convirtiéndote-en-un-usuario-eléctrico)
-    *   [Curso 4: Administración de Sistemas y Servicios de Infraestructura](#curso-4-administración-de-sistemas-y-servicios-de-infraestructura)
-    *   [Curso 5: Activos de Seguridad de Red y Endpoints](#curso-5-activos-de-seguridad-de-red-y-endpoints)
-    *   [Curso 6: Seguridad de Datos, Aplicaciones y la Nube](#curso-6-seguridad-de-datos-aplicaciones-y-la-nube)
-    *   [Curso 7: Poniéndolo Todo Junto: Gestión de la Seguridad, Riesgo y Cumplimiento](#curso-7-poniéndolo-todo-junto-gestión-de-la-seguridad-riesgo-y-cumplimiento)
-    *   [Curso 8: Preparación para la Carrera Profesional de Ciberseguridad](#curso-8-preparación-para-la-carrera-profesional-de-ciberseguridad)
-5.  [Características Destacadas de esta Guía](#características-destacadas-de-esta-guía)
-6.  [Cómo Utilizar esta Guía de Estudio](#cómo-utilizar-esta-guía-de-estudio)
-7.  [¡Contribuye y Mejora esta Guía!](#contribuye-y-mejora-esta-guía)
-8.  [Licencia Open Source](#licencia-open-source)
-9.  [Autor/es](#autores)
-10. [¡Empieza tu camino hacia la certificación!](#empieza-tu-camino-hacia-la-certificación)
+1.  📖 [Sobre esta Guía de Estudio](#sobre-esta-guía-de-estudio)
+2.  👤 [¿Para quién es esta guía?](#para-quién-es-esta-guía)
+3.  🔎 [¿Qué encontrarás en esta guía?](#qué-encontrarás-en-esta-guía)
+4.  🧱 [Estructura de la Guía: Los 8 Cursos de la Certificación](#estructura-de-la-guía-los-8-cursos-de-la-certificación)
+    *   1️⃣ *[Curso 1: Fundamentos de la Ciberseguridad](#curso-1-fundamentos-de-la-ciberseguridad)  - Introducción a conceptos básicos, amenazas y principios de seguridad.*
+    *   2️⃣ *[Curso 2: Redes y Ciberseguridad en el Mundo Moderno](#curso-2-redes-y-ciberseguridad-en-el-mundo-moderno)  - Redes, protocolos, modelo OSI y seguridad en entornos de red.*
+    *   3️⃣ *[Curso 3: Sistemas Operativos y Tú: Convirtiéndote en un Usuario Eléctrico](#curso-3-sistemas-operativos-y-tú-convirtiéndote-en-un-usuario-eléctrico) * - Sistemas operativos (Linux, Windows), línea de comandos y uso seguro del SO.*
+    *   4️⃣ *[Curso 4: Administración de Sistemas y Servicios de Infraestructura](#curso-4-administración-de-sistemas-y-servicios-de-infraestructura)  - Administración de sistemas, servidores, servicios de red e infraestructura IT.*
+    *   5️⃣ *[Curso 5: Activos de Seguridad de Red y Endpoints](#curso-5-activos-de-seguridad-de-red-y-endpoints)  - Firewalls, IDS/IPS, VPNs, seguridad de endpoints y protección de perímetro.*
+    *   6️⃣ *[Curso 6: Seguridad de Datos, Aplicaciones y la Nube](#curso-6-seguridad-de-datos-aplicaciones-y-la-nube)  - Seguridad de datos, bases de datos, desarrollo seguro de aplicaciones y seguridad cloud.*
+    *   7️⃣ *[Curso 7: Poniéndolo Todo Junto: Gestión de la Seguridad, Riesgo y Cumplimiento](#curso-7-poniéndolo-todo-junto-gestión-de-la-seguridad-riesgo-y-cumplimiento)  - Gestión de riesgos, marcos de seguridad, cumplimiento normativo y respuesta a incidentes.*
+    *   8️⃣ *[Curso 8: Preparación para la Carrera Profesional de Ciberseguridad](#curso-8-preparación-para-la-carrera-profesional-de-ciberseguridad)  - Habilidades profesionales, búsqueda de empleo, portfolio y desarrollo de carrera en ciberseguridad.*
+5.  ⭐ [Características Destacadas de esta Guía](#características-destacadas-de-esta-guía)
+6.  🗺️ [Cómo Utilizar esta Guía de Estudio](#cómo-utilizar-esta-guía-de-estudio)
+7.  🤝 [¡Contribuye y Mejora esta Guía!](#contribuye-y-mejora-esta-guía)
+8.  🔓 [Licencia Open Source](#licencia-open-source)
+9.  🙋‍♂️ [Autor/es](#autores)
+10. 🚀 [¡Empieza tu camino hacia la certificación!](#empieza-tu-camino-hacia-la-certificación)
 
 ---
 
