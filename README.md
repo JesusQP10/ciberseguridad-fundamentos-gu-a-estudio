@@ -49,11 +49,9 @@
 
 **Licencia:**
 
-Este recurso está licenciado bajo la licencia [Creative Commons Attribution Share-Alike 4.0 International](LICENSE) (Enlaza al archivo LICENSE en tu repositorio).
+Este recurso está licenciado bajo la licencia [Creative Commons Attribution Share-Alike 4.0 International](LICENSE) 
 
 **Autor:**
 
-[Tu Nombre] / [Tu Organización (opcional)] - [Enlace a tu sitio web/perfil (opcional)]
 
----
-**¡Comienza a explorar el recurso de ciberseguridad y eleva tus conocimientos al siguiente nivel!** 🚀
+
