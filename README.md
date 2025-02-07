@@ -65,7 +65,7 @@ Esta guía está organizada siguiendo la estructura de los 8 cursos de la Certif
 
 A continuación, se presenta la estructura de la certificación y los enlaces a las carpetas de cada curso dentro de esta guía:
 
-*   *[Curso 1: Fundamentos de la Ciberseguridad](curso-1-fundamentos-ciberseguridad/)*  
+*   *[Curso 1: Fundamentos de la Ciberseguridad](#Curso1_Fundamentos/)*  
 *   *[Curso 2: Redes y Ciberseguridad en el Mundo Moderno](curso-2-redes-ciberseguridad/)*
 *   *[Curso 3: Sistemas Operativos y Tú: Convirtiéndote en un Usuario Eléctrico](curso-3-sistemas-operativos-ciberseguridad/)* 
 *   *[Curso 4: Administración de Sistemas y Servicios de Infraestructura](curso-4-administracion-sistemas-seguridad/)*
