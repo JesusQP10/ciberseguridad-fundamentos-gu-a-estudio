@@ -2,7 +2,7 @@
 # <font color="#00B4D8">Ciberseguridad:</font> Principios, Amenazas y Defensas
 ## Un enfoque integral para profesionales y estudiantes
 
-[![Imagen de Banner o Logo del Proyecto (opcional)](images/banner-ciberseguridad.png)](enlace-a-tu-repositorio-github)  (Opcional: Insertar un banner gráfico atractivo)
+[![Imagen de Banner o Logo del Proyecto (opcional)](images/banner-ciberseguridad.png)](enlace-a-tu-repositorio-github)  
 
 **El mejor recurso en español para dominar los fundamentos de la ciberseguridad.**  Basado en la Tríada CIA, Malware, Ingeniería Social y más.  ¡Prepárate para la certificación CompTIA Security+ y construye una base sólida en ciberseguridad!
 
