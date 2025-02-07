@@ -153,7 +153,7 @@ La **Gestión de Identidades y Accesos (IAM)** no es una tecnología única, sin
    
       
         
-    </div>
+    
     <p style="font-size:1.1em;">El ataque a Sony Pictures Entertainment (SPE) en noviembre de 2014 es un caso de estudio **fundamental para entender las múltiples dimensiones de la confidencialidad y las graves consecuencias de su falta de protección.**  No se trató de una única vulnerabilidad, sino de una **acumulación de fallos en diferentes capas de seguridad relacionados con la confidencialidad**,  que permitieron a los atacantes comprometer la red de SPE, exfiltrar grandes cantidades de información sensible y causar un daño significativo a la empresa.</p>
 
     **Análisis Detallado de las Deficiencias en Confidencialidad en Sony Pictures:**
