@@ -1,4 +1,4 @@
-# 📚 🔐 🤫Capítulo 1: La Tríada CIA – El Pilar Fundamental de la Ciberseguridad</h2>
+# 🕶️ 🔐 🤫Capítulo 1: La Tríada CIA – El Pilar Fundamental de la Ciberseguridad</h2>
     <p style="font-size:1.1em; margin-bottom: 12px;">El modelo que define los objetivos esenciales de la seguridad de la información</p>
     🔑 **Confidencialidad | Integridad | Disponibilidad**
     <br>
