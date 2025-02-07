@@ -3,7 +3,7 @@
 
 
 **Bienvenido/a al recurso  en español para la Certificación Profesional de Ciberseguridad de Google.**  Este repositorio Open Source ha sido creado con el objetivo de proporcionar la **guía de estudio más completa, clara y accesible** para superar con éxito los **8 cursos** que componen esta prestigiosa certificación profesional.
-(https://images.pexels.com/photos/5240543/pexels-photo-5240543.jpeg)
+
 **Tabla de Contenidos**
 
 
