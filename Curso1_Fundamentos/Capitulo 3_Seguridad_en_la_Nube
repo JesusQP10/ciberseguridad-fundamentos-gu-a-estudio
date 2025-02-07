@@ -10,7 +10,7 @@
     <p style="font-size:1.1em; margin-bottom: 12px;">Modelos de Servicio, Responsabilidad Compartida, Zero Trust y Estrategias de Defensa en el Entorno Cloud</p>
     🔑 **Cloud Computing | IaaS | PaaS | SaaS | Modelos de Servicio en la Nube | Responsabilidad Compartida en la Nube | Riesgos de Seguridad en la Nube | Misconfiguraciones en la Nube | Zero Trust en la Nube | Verificación Continua | Microsegmentación en la Nube | SASE | CWPP | CASB | CNAPP | Seguridad Cloud Nativa**
     <br>
-    
+    [Image of Representación visual del entorno de "Cloud Security" como una ciudad futurista construida en nubes,  con capas de seguridad abstractas protegiendo los edificios y la infraestructura crítica.  Se deben destacar elementos de seguridad modernos y tecnológicos,  simbolizando la protección en el entorno cloud.]
     <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">Visualización de la Seguridad en la Nube:  Protegiendo la infraestructura digital en el nuevo paradigma del Cloud Computing, más allá de las defensas tradicionales.</p>
 </div>
 
@@ -48,7 +48,7 @@ El **Cloud Computing** ofrece una **variedad de modelos de servicio**,  cada uno
         *   **DigitalOcean Droplets:**  Servidores virtuales simplificados para desarrolladores.
         *   **VMware vSphere in vCloud Air:**  Infraestructura virtualizada basada en VMware en la nube de VMware.
 
-    
+    [Image of Diagrama visual del modelo IaaS (Infraestructura como Servicio).  Se debe mostrar la responsabilidad del proveedor (infraestructura física: servidores, almacenamiento, redes, hipervisor) claramente separada de la responsabilidad del cliente (SO, aplicaciones, datos, seguridad de la configuración).  Utilizar iconos representativos para cada capa y resaltar la línea divisoria de la responsabilidad compartida.]
     <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">Modelo de Responsabilidad Compartida en IaaS:  Clarificando las responsabilidades de seguridad entre el proveedor y el cliente.</p>
 
 
@@ -101,7 +101,7 @@ El **Cloud Computing** ofrece una **variedad de modelos de servicio**,  cada uno
         *   **Zoom:**  Plataforma de videoconferencia en la nube.
         *   **Dropbox, Box, OneDrive:**  Servicios de almacenamiento de archivos en la nube.
 
-    
+    [Image of Diagrama visual del modelo SaaS (Software como Servicio).  Se debe mostrar la responsabilidad del proveedor cubriendo prácticamente todas las capas (infraestructura, SO, middleware, runtime, aplicación, datos - en algunos casos),  y la responsabilidad del cliente muy reducida (datos - en algunos casos, configuración de SaaS, gestión de identidades).  Resaltar la línea divisoria de la responsabilidad compartida muy cerca del cliente,  indicando la mínima responsabilidad en comparación con IaaS y PaaS.]
     <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">Modelo de Responsabilidad Compartida en SaaS:  Máxima comodidad y mínima gestión, responsabilidad de seguridad principalmente en el proveedor.</p>
 
 #### 📌 **El Modelo de Responsabilidad Compartida en la Nube:  Clarificando las Fronteras de la Seguridad –  Dónde Termina el Proveedor y Comienza el Cliente**
