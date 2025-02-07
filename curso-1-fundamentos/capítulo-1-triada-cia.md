@@ -1,4 +1,4 @@
-# <font color="#00B4D8">Ciberseguridad:</font> Principios, Amenazas y Defensas
+# <font color="#00B4D8"> 	🔑🔐Ciberseguridad:</font> Principios, Amenazas y Defensas
 ## Un enfoque integral para profesionales y estudiantes
 ### 🔒 Tema: Fundamentos, Amenazas Modernas y Tecnologías Clave
 
