@@ -150,7 +150,7 @@ La **Gestión de Identidades y Accesos (IAM)** no es una tecnología única, sin
 
 <div style="background-color:#f0f0f0; padding: 12px; border-radius: 7px;">
     #### 📊 **Caso de Estudio Ampliado: Filtración de Datos de Sony Pictures (2014) –  Anatomía de un Fallo de Confidencialidad**
-    <div style="float:right; margin-left: 15px;">
+   
       
         
     </div>
