@@ -11,7 +11,7 @@
     <p style="font-size:1.1em; margin-bottom: 12px;">El modelo que define los objetivos esenciales de la seguridad de la información</p>
     🔑 **Confidencialidad | Integridad | Disponibilidad**
     <br>
-    [Image of Diagrama de la Triada CIA con tres pilares interconectados: Confidencialidad, Integridad, Disponibilidad]
+    
     <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">Visualización de la Tríada CIA: Los tres pilares interdependientes de la seguridad de la información.</p>
 </div>
 
