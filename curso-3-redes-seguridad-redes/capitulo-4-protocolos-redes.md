@@ -1,6 +1,5 @@
 # 🚀 Capítulo 4: Introducción a los protocolos de redes 
 
-Este capítulo es tu **puerta de entrada definitiva** al fascinante y fundamental mundo de los **protocolos de red**. Prepárate para no solo construir una base sólida, sino también para **poner a prueba tus conocimientos** con ejercicios prácticos. Dominaremos desde los conceptos más básicos hasta las estrategias de seguridad esenciales, ¡y lo haremos de forma interactiva! Usaremos vídeos, lecturas y ejercicios como tus compañeros de viaje, haciendo que el aprendizaje sea efectivo y, sobre todo, ¡aplicable! Abróchate el cinturón y ¡manos a la obra! 👩‍💻👨‍💻
 
 ## 🗺️ Mapa del Capítulo
 
