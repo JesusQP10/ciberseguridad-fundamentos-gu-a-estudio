@@ -14,7 +14,7 @@
 2.  👤 [¿Para quién es esta guía?](#para-quién-es-esta-guía)
 3.  🔎 [¿Qué encontrarás en esta guía?](#qué-encontrarás-en-esta-guía)
 4.  🧱 [Estructura de la Guía: Los 8 Cursos de la Certificación](#estructura-de-la-guía-los-8-cursos-de-la-certificación)
-    *   1️⃣ *[Curso 1: Fundamentos de la Ciberseguridad](#Curso-1-fundamentos)- Introducción a conceptos básicos, amenazas y principios de seguridad.*
+    *   1️⃣ *[Curso 1: Fundamentos de la Ciberseguridad](#curso-1-fundamentos)- Introducción a conceptos básicos, amenazas y principios de seguridad.*
     *   2️⃣ *[Curso 2: Redes y Ciberseguridad en el Mundo Moderno](#curso-2-redes-y-ciberseguridad-en-el-mundo-moderno)  - Redes, protocolos, modelo OSI y seguridad en entornos de red.*
     *   3️⃣ *[Curso 3: Sistemas Operativos y Tú: Convirtiéndote en un Usuario Eléctrico](#curso-3-sistemas-operativos-y-tú-convirtiéndote-en-un-usuario-eléctrico) * - Sistemas operativos (Linux, Windows), línea de comandos y uso seguro del SO.*
     *   4️⃣ *[Curso 4: Administración de Sistemas y Servicios de Infraestructura](#curso-4-administración-de-sistemas-y-servicios-de-infraestructura)  - Administración de sistemas, servidores, servicios de red e infraestructura IT.*
