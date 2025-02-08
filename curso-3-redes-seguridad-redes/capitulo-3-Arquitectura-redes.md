@@ -736,6 +736,128 @@ La capa de Aplicación (Application Layer) es la capa **más cercana al usuario 
         * **Dependencia de UDP (Consultas DNS) - Posible Pérdida de Paquetes (Aunque se Utiliza Retransmisión):**  El uso de **UDP para las consultas DNS (por razones de eficiencia y baja latencia)** implica que **las consultas DNS y respuestas DNS pueden *perderse*** en la red.  DNS utiliza **mecanismos de *retransmisión* en el lado del cliente DNS (resolver)** para **reintentar las consultas perdidas**, pero la pérdida de paquetes puede **aumentar la *latencia* de las consultas DNS**.
         * **Complejidad de la Jerarquía y Gestión de Zonas:**  La **jerarquía de DNS** y la **gestión de zonas DNS**, servidores de nombres autoritativos, registros de recursos, delegaciones, etc., pueden ser **complejas de entender y gestionar**, especialmente para administradores de red y registradores de dominios.
 
+## 6. 📡 Protocolos de Comunicación Inalámbrica: Evolución de la Seguridad Wi-Fi
+
+En la actualidad, la **conexión inalámbrica a Internet**, comúnmente conocida como **Wi-Fi**, se ha convertido en un elemento fundamental en nuestras vidas.  **Wi-Fi** no es más que un término comercial que engloba un conjunto de **estándares** que definen la comunicación para las **redes de área local inalámbricas (WLAN)**.  Este término fue acuñado por la **Wi-Fi Alliance** (anteriormente WECA), pero los estándares y protocolos subyacentes se basan en la familia **802.11** del **Instituto de Ingenieros Eléctricos y Electrónicos (IEEE)**.  Por ello, es común referirse a **Wi-Fi** indistintamente como **IEEE 802.11**.
+
+La seguridad de las comunicaciones **Wi-Fi** se basa en **protocolos de seguridad inalámbrica** que han evolucionado significativamente para hacer frente a las crecientes amenazas y vulnerabilidades.  Comprender esta evolución es crucial para cualquier profesional de la seguridad de redes.
+
+En este punto, exploraremos la **evolución de los protocolos de seguridad inalámbrica**, desde el obsoleto **WEP** hasta los estándares actuales **WPA, WPA2 y WPA3**.  También mencionaremos brevemente el **Protocolo de Aplicación Inalámbrica (WAP)**, aunque este último se centra en un aspecto diferente de la comunicación inalámbrica.
+
+### 6.1. 🔒 Privacidad Equivalente por Cable (WEP): El Primer Intento
+
+**Privacidad Equivalente por Cable (WEP)**, introducido en 1999, fue el primer protocolo diseñado para asegurar las redes inalámbricas.  Su objetivo principal era proporcionar un nivel de **privacidad** en las conexiones inalámbricas comparable al que ofrecían las redes cableadas tradicionales.
+
+| Característica de WEP        | Descripción                                                                 |
+| :----------------------------- | :-------------------------------------------------------------------------- |
+| **Año de Creación**           | 1999                                                                      |
+| **Objetivo Principal**        | Privacidad equivalente a redes cableadas                                     |
+| **Estado Actual**             | Obsoleto, altamente vulnerable                                               |
+| **Vulnerabilidades Clave**    | Cifrado RC4 débil, reutilización de vectores de inicialización (IV), ataques de fuerza bruta |
+| **Algoritmo de Cifrado**      | RC4                                                                       |
+| **Tamaño de Clave**           | 64-bit o 128-bit (con clave base de 40-bit o 104-bit respectivamente)      |
+| **Integridad de Mensajes**    | CRC-32 (débil)                                                              |
+
+**WEP** utilizaba el algoritmo de cifrado **RC4** y claves de cifrado de **64 o 128 bits**. Sin embargo, con el tiempo se descubrieron **serias vulnerabilidades** en su diseño:
+
+*   **Cifrado RC4 Débil:** El algoritmo **RC4**, tal como se implementó en WEP, demostró ser vulnerable a diversos ataques criptográficos.
+*   **Reutilización de Vectores de Inicialización (IV):**  WEP utilizaba **vectores de inicialización (IVs)** de 24 bits para el cifrado **RC4**.  La reutilización de estos IVs, que ocurría con frecuencia, permitía a los atacantes recopilar suficientes paquetes para **descifrar la clave WEP**.
+*   **Ataques de Fuerza Bruta:**  La relativa **corta longitud de las claves** y las debilidades en el algoritmo de cifrado hacían que **WEP** fuera susceptible a ataques de fuerza bruta.
+
+Debido a estas vulnerabilidades, **WEP se considera inseguro** y **no debe utilizarse en redes modernas**.  Su presencia actual se limita a equipos muy antiguos o configuraciones no actualizadas.
+
+### 6.2. 🛡️ Acceso Wi-Fi Protegido (WPA): Una Solución Transitoria
+
+**Acceso Wi-Fi Protegido (WPA)**, introducido en 2003, surgió como una solución **temporal** para **reemplazar a WEP** y abordar sus graves deficiencias de seguridad.  **WPA** se diseñó con la intención de ser **retrocompatible** con hardware más antiguo, lo que limitó la magnitud de las mejoras que podía implementar.
+
+| Característica de WPA        | Descripción                                                                 |
+| :----------------------------- | :-------------------------------------------------------------------------- |
+| **Año de Creación**           | 2003                                                                      |
+| **Objetivo Principal**        | Mejorar la seguridad de WEP, solución transitoria                             |
+| **Estado Actual**             | Obsoleto, vulnerable a ataques KRACK                                        |
+| **Vulnerabilidades Clave**    | Ataques KRACK, TKIP aún basado en RC4                                       |
+| **Algoritmo de Cifrado**      | TKIP (Temporal Key Integrity Protocol), basado en RC4                        |
+| **Tamaño de Clave**           | 128-bit (clave temporal dinámica)                                           |
+| **Integridad de Mensajes**    | MIC (Message Integrity Check) - Michael                                     |
+
+**WPA** introdujo mejoras significativas con respecto a **WEP**:
+
+*   **Protocolo de Integridad de Clave Temporal (TKIP):**  **WPA** reemplazó el cifrado estático de **WEP** con **TKIP**.  **TKIP** utilizaba una clave base de 128 bits y un **vector de inicialización (IV) de 128 bits**, generando **claves de cifrado dinámicas** para cada paquete, lo que dificultaba la reutilización de IVs y los ataques basados en el análisis del tráfico.  Sin embargo, **TKIP** aún se basaba en el algoritmo **RC4**, lo que limitaba su seguridad a largo plazo.
+*   **Comprobación de Integridad de Mensajes (MIC):**  **WPA** incorporó el **MIC** (Message Integrity Check), también conocido como **Michael**, para verificar la integridad de los mensajes y **prevenir la manipulación de paquetes**.  Esto protegía contra ciertos tipos de ataques que eran posibles en **WEP**.
+
+A pesar de estas mejoras, **WPA no era una solución definitiva**.  Se descubrió que **WPA** era vulnerable a **ataques de reinstalación de claves (KRACK)**, que permitían a los atacantes descifrar el tráfico manipulando el protocolo de enlace de autenticación.  Esta vulnerabilidad, junto con la base en **RC4** de **TKIP**, llevó a la necesidad de un protocolo más robusto: **WPA2**.
+
+### 6.3. 🚀 WPA2: El Estándar de Seguridad Establecido
+
+**WPA2**, lanzado en 2004, se convirtió en el **estándar de seguridad Wi-Fi** durante muchos años y aún hoy se considera una opción segura en la mayoría de los casos.  **WPA2** introdujo mejoras sustanciales en comparación con **WPA**, especialmente en el ámbito del cifrado.
+
+| Característica de WPA2       | Descripción                                                                 |
+| :---------------------------- | :-------------------------------------------------------------------------- |
+| **Año de Creación**          | 2004                                                                      |
+| **Objetivo Principal**       | Mejorar la seguridad de WPA, estándar de seguridad robusto                     |
+| **Estado Actual**            | Estándar ampliamente utilizado, vulnerable a ataques KRACK                    |
+| **Vulnerabilidades Clave**   | Ataques KRACK                                                              |
+| **Algoritmos de Cifrado**     | **Personal (WPA2-PSK):** AES-CCMP (obligatorio), TKIP (opcional, retrocompatibilidad) <br> **Empresarial (WPA2-Enterprise):** AES-CCMP (obligatorio), TKIP (opcional, retrocompatibilidad) |
+| **Tamaño de Clave**          | 128-bit o 256-bit (dependiendo del modo y configuración)                    |
+| **Integridad de Mensajes**   | CCMP (Cipher Block Chaining Message Authentication Code Protocol)            |
+
+**WPA2** se basa en el **Estándar de Cifrado Avanzado (AES)**, un algoritmo de cifrado simétrico mucho más robusto y seguro que **RC4**.  **WPA2** ofrece dos modos principales:
+
+*   **WPA2 Personal (WPA2-PSK):**  Diseñado para **redes domésticas y pequeñas oficinas**.  Utiliza una **clave precompartida (PSK)** o contraseña para la autenticación.  El cifrado **AES-CCMP** es **obligatorio** en este modo, aunque **TKIP** se mantiene como opción para **retrocompatibilidad** con dispositivos más antiguos.  **WPA2-Personal** es **fácil de configurar** y ofrece un buen nivel de seguridad para la mayoría de los usuarios domésticos.
+
+*   **WPA2 Enterprise (WPA2-EAP):**  Orientado a **entornos empresariales y organizaciones de mayor tamaño**.  Utiliza **802.1X/EAP** para la autenticación, lo que permite una **gestión centralizada de usuarios y accesos**.  En lugar de una clave precompartida, cada usuario se autentica con sus **propias credenciales** (usuario/contraseña, certificados, etc.) a través de un **servidor de autenticación (RADIUS)**.  **WPA2-Enterprise** proporciona un nivel de seguridad superior y una mayor escalabilidad para redes empresariales.
+
+A pesar de su robustez, **WPA2 también es vulnerable a los ataques KRACK**.  Sin embargo, la complejidad de estos ataques y la disponibilidad de **parches de seguridad** para muchos dispositivos han mitigado significativamente el riesgo en la práctica.  Aun así, la necesidad de una seguridad aún mayor impulsó el desarrollo de **WPA3**.
+
+### 6.4. ✨ WPA3: El Futuro de la Seguridad Wi-Fi
+
+**WPA3**, introducido en 2018, representa la **última generación de protocolos de seguridad Wi-Fi**.  **WPA3** se diseñó para **abordar las vulnerabilidades** presentes en **WPA2** y proporcionar un nivel de seguridad aún mayor, especialmente en **redes públicas y entornos empresariales sensibles**.
+
+| Característica de WPA3       | Descripción                                                                 |
+| :---------------------------- | :-------------------------------------------------------------------------- |
+| **Año de Creación**          | 2018                                                                      |
+| **Objetivo Principal**       | Mayor seguridad que WPA2, protección contra ataques modernos                  |
+| **Estado Actual**            | Despliegue creciente, estándar de seguridad Wi-Fi más reciente                 |
+| **Vulnerabilidades Clave**   | Menos vulnerabilidades conocidas, mayor resistencia a ataques de fuerza bruta |
+| **Algoritmos de Cifrado**     | **Personal (WPA3-Personal):** SAE (Simultaneous Authentication of Equals), AES-CCMP <br> **Empresarial (WPA3-Enterprise):** AES-GCMP-256, HMAC-SHA384 |
+| **Tamaño de Clave**          | 128-bit (WPA3-Personal), 192-bit (WPA3-Enterprise opcional)                |
+| **Integridad de Mensajes**   | CCMP (WPA3-Personal), GCMP-256 (WPA3-Enterprise)                           |
+
+**WPA3** introduce varias mejoras clave con respecto a **WPA2**:
+
+*   **Protección contra Ataques KRACK:** **WPA3** **mitiga la vulnerabilidad a los ataques KRACK** mediante un protocolo de enlace de autenticación más robusto.
+*   **Autenticación Simultánea de Iguales (SAE) - Dragonfly Handshake:**  **WPA3-Personal** utiliza **SAE (Simultaneous Authentication of Equals)**, también conocido como **Dragonfly Handshake**, para el intercambio de contraseñas.  **SAE** proporciona una **autenticación más segura** y **resistente a ataques de diccionario offline**, donde los atacantes intentan descifrar la contraseña capturando el handshake y probando combinaciones de contraseñas.  **SAE** también ofrece **secreto perfecto hacia adelante (PFS)**, lo que significa que si la clave a largo plazo se ve comprometida en el futuro, las comunicaciones pasadas permanecen seguras.
+*   **Cifrado Individualizado (OWE - Opportunistic Wireless Encryption):** **WPA3** introduce **OWE** (Opportunistic Wireless Encryption) para **redes Wi-Fi públicas y abiertas**.  **OWE** cifra la comunicación entre el dispositivo y el punto de acceso, incluso en redes sin contraseña, proporcionando una **mayor privacidad** en entornos públicos.
+*   **Cifrado Reforzado:**  **WPA3** aumenta la longitud de las claves de cifrado.  **WPA3-Personal** utiliza cifrado de **128 bits**, mientras que **WPA3-Enterprise** ofrece un modo opcional de **192 bits** para aplicaciones que requieren la máxima seguridad.  **WPA3-Enterprise** también utiliza algoritmos de cifrado más robustos como **AES-GCMP-256** y **HMAC-SHA384**.
+
+**WPA3** representa el futuro de la seguridad Wi-Fi, ofreciendo **mejoras significativas en seguridad y privacidad** en comparación con sus predecesores.  Aunque su adopción aún está en curso, se espera que **WPA3** se convierta en el **nuevo estándar de seguridad Wi-Fi** en los próximos años.
+
+### 6.5. 🌐 Protocolo de Aplicación Inalámbrica (WAP)
+
+Es importante mencionar brevemente el **Protocolo de Aplicación Inalámbrica (WAP)**, aunque **no está directamente relacionado con la seguridad Wi-Fi**.  **WAP** fue un estándar **desarrollado a finales de la década de 1990** para permitir el **acceso a servicios de Internet y contenido web desde dispositivos móviles** con **conexiones inalámbricas de baja velocidad**, como las redes **2G**.
+
+| Característica de WAP        | Descripción                                                                 |
+| :----------------------------- | :-------------------------------------------------------------------------- |
+| **Año de Creación**           | Finales de la década de 1990                                                |
+| **Objetivo Principal**        | Acceso a Internet desde dispositivos móviles con conexiones inalámbricas lentas |
+| **Estado Actual**             | Obsoleto, reemplazado por tecnologías web modernas y redes más rápidas        |
+| **Limitaciones Clave**        | Complejidad, baja eficiencia, seguridad limitada                              |
+| **Arquitectura**              | Modelo de protocolo en capas, similar a OSI                                  |
+| **Lenguaje de Marcado**       | WML (Wireless Markup Language)                                              |
+| **Protocolo de Transporte**   | WTP (Wireless Transaction Protocol)                                         |
+
+**WAP** no era un protocolo de seguridad en sí mismo, sino una **suite de protocolos** que optimizaba la presentación y el transporte de contenido web para dispositivos móviles con **limitaciones de procesamiento y ancho de banda**.  **WAP** utilizaba un modelo de protocolo en capas, similar al **Modelo OSI**, y definía un **lenguaje de marcado específico (WML - Wireless Markup Language)**, un protocolo de transporte **(WTP - Wireless Transaction Protocol)** y otras tecnologías.
+
+Sin embargo, **WAP** presentaba varias **limitaciones**:
+
+*   **Complejidad:**  La arquitectura **WAP** era compleja y requería la **transcodificación del contenido web** para adaptarlo a los dispositivos móviles, lo que generaba **ineficiencia y latencia**.
+*   **Baja Eficiencia:**  **WAP** no estaba optimizado para las redes inalámbricas más rápidas que surgieron posteriormente (3G, 4G, Wi-Fi).
+*   **Seguridad Limitada:**  Aunque **WAP** incluía mecanismos de seguridad, estos eran **limitados** en comparación con los protocolos de seguridad web y Wi-Fi más modernos.
+
+Con la llegada de **redes móviles más rápidas (3G, 4G, 5G)**, **dispositivos móviles más potentes** y **tecnologías web más eficientes**, **WAP se volvió obsoleto** y fue **reemplazado por el acceso directo a la web estándar** desde dispositivos móviles.  Hoy en día, **WAP** es **raramente utilizado** y tiene un valor principalmente histórico.
+
+En resumen, la seguridad de las redes inalámbricas **Wi-Fi** ha evolucionado significativamente desde los inicios con **WEP**, pasando por **WPA** y **WPA2**, hasta llegar al estándar actual **WPA3**.  Comprender las características, vulnerabilidades y fortalezas de cada protocolo es esencial para implementar **redes inalámbricas seguras** y proteger la información que se transmite a través de ellas.  Mientras que **WAP** representó un intento temprano de llevar Internet a dispositivos móviles, su enfoque y tecnología son hoy en día obsoletos en el contexto de las redes inalámbricas modernas.
+
 **Conclusión del Capítulo 3:**
 
 ¡Enhorabuena! Has explorado a fondo el Capítulo 3 sobre Arquitectura de Redes.  Ahora comprendes los modelos de referencia OSI y TCP/IP, los protocolos clave de enlace de datos (Ethernet, PPP), red (IP, ICMP), transporte (TCP, UDP) y aplicación (HTTP, FTP, SMTP, DNS).  Con este conocimiento profundo, tienes una base sólida para entender cómo se construyen y funcionan las redes, desde los fundamentos de la transmisión física hasta los servicios de aplicación que utilizamos a diario en Internet. ¡Sigue adelante con tu aprendizaje de redes! 🚀
