@@ -1,4 +1,4 @@
-# 🌐 Fundamentos de las Redes: Una Exploración Profunda 🚀
+# 🌐 Fundamentos de las Redes 🚀
 
 Este capítulo te sumergirá en el fascinante mundo de las redes informáticas. Desde los conceptos más básicos hasta los componentes físicos, exploraremos juntos cada rincón para que tengas una base sólida y completa. ¡Prepárate para convertirte en un experto en redes! 💻
 
