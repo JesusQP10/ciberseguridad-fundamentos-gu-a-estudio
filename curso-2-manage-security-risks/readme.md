@@ -14,68 +14,162 @@ Este módulo te proporcionará las herramientas y conocimientos necesarios para 
 
 ---
 
-## 📚 Contenido del Módulo
+## Parte I: Fundamentos 🏛️
 
-### 🔍 **1. Fundamentos de la Gestión de Riesgos**
-- **Ciclo de vida del riesgo**: Identificación, evaluación, tratamiento y monitoreo.
-- **Conceptos clave**: Riesgo, amenaza, vulnerabilidad.
-- **Matrices de riesgo**: Visualización y priorización.
+### Capítulo 1: Tríada CIA y Gestión de Activos 🔑
 
-### 🚨 **2. Identificación de Riesgos**
-- **Análisis de activos**: Clasificación y valoración de activos.  
-- **Análisis de amenazas**: Internas y externas.  
-- **Vulnerabilidades comunes**: OWASP Top 10, configuraciones incorrectas.  
+#### 1.1 Tríada CIA: Pilares de Seguridad 💖
+*   Confidencialidad 🤫
+    *   Cifrado Simétrico (AES-256) 🔐
+    *   Cifrado Asimétrico (RSA) 🔑-🔓
+    *   Caso: Equifax 😱
+*   Integridad ✅
+    *   Funciones Hash (SHA-256) 🧮
+    *   Firmas Digitales ✍️
+    *   Ejercicio: Hash de archivo 🧪
+*   Disponibilidad 🚀
+    *   Redundancia y Balanceo 🔄 (Ej: Netflix 🍿)
+    *   DRP 🚑 (Componentes Clave 🛡️)
 
-### 📊 **3. Evaluación de Riesgos**
-- Métodos cuantitativos y cualitativos.  
-- Análisis de probabilidad e impacto.  
-- Matrices de riesgo para priorización.  
+#### 1.2 Gestión de Activos y Riesgos 🛡️
+*   Asset (Activo) 💎
+    *   Clasificación 📊 (Críticos 🔥/ No Críticos ☁️)
+    *   Ejercicio: Matriz de Criticidad 📝
+*   Risk (Riesgo) ⚠️
+    *   Análisis Cuantitativo/Cualitativo 🔢/🤔
+    *   Herramienta: Matriz de Calor 🌡️
 
-### 🔧 **4. Tratamiento de Riesgos**
-- **Controles de seguridad**: Técnicos, administrativos, físicos.  
-- **Transferencia de riesgos**: Seguros cibernéticos.  
-- **Aceptación de riesgos**: Evaluación de la tolerancia al riesgo.  
-- **Evitación de riesgos**: Eliminación de la fuente del riesgo.  
+## Capítulo 2: Marcos Normativos y Cumplimiento 📜
 
-### 🆘 **5. Plan de Respuesta a Incidentes**
-- **Fases de un incidente**: Detección, contención, erradicación, recuperación.  
-- **Equipos de respuesta a incidentes (CSIRT).**  
-- **Simulacros y ejercicios prácticos.**  
+#### 2.1 NIST CSF: Guía Maestra 🗺️
+*   5 Funciones Clave 🖐️: Identificar 🔍, Proteger 🛡️, Detectar 🚨, Responder 🚒, Recuperar 🔄
+*   Caso: Empresa de Salud ✅
 
-### 📜 **6. Marcos Normativos**
-- 🏛️ **NIST Cybersecurity Framework (CSF)**  
-- 📄 **ISO 27005**  
-- 🔐 **GDPR, HIPAA, PCI DSS**  
+#### 2.2 NIST SP 800-53: Controles Federales 🏛️
+*   Controles Prioritarios ⭐: AC-3 🛂, SI-4 👁️
+*   Ejercicio: Selección de Controles 📝
 
----
+#### 2.3 Regulaciones Globales 🌍
+*   GDPR (Europa) 🇪🇺
+    *   Principios Clave: Consentimiento, Olvido 🔒
+    *   Multa Meta 💸
+*   HIPAA (EEUU - Salud) 🇺🇸
+    *   PHI 🏥 (Cifrado y Auditorías)
+    *   Caso Anthem Inc. 💔
 
-## 🛠️ Laboratorios y Ejercicios
+## Parte II: Amenazas y Vulnerabilidades 😈
 
-✅ **Análisis de riesgo:** Realizar un análisis para una empresa pequeña.  
-✅ **Desarrollo de un plan de respuesta a incidentes:** Crear un plan personalizado.  
-✅ **Simulación de un ataque de phishing:** Uso de herramientas como GoPhish.  
+### Capítulo 3: Malware y Ataques Modernos 👾
 
----
+#### 3.1 Ransomware: Pandemia Digital 🦠
+*   Anatomía del Ataque 💀: Infiltración 🕵️‍♂️, Propagación 🕸️, Cifrado 🔒, Extorsión 💸
+*   Ejemplo: WannaCry 💥
+*   Ejercicio: Simulación Ransomware 🧪
 
-## 🏆 Proyecto Final
-📌 **Desarrollo de un programa de gestión de riesgos**  
-Crear un programa integral para una organización que incluya:  
-✅ Identificación de riesgos.  
-✅ Evaluación y tratamiento de riesgos.  
-✅ Plan de respuesta a incidentes.  
+#### 3.2 Ingeniería Social: El Engaño Humano 🎭
+*   Técnicas Avanzadas 🎣: Spear Phishing 🎯 (Ej: CEO Falso ⚠️), Vishing 📞
+*   Caso: Twitter 🐦
+*   Ejercicio: Campaña Phishing Ético ✉️
 
----
+### Capítulo 4: Vulnerabilidades y Cadena de Suministro ⛓️
 
-## 📖 Recursos Adicionales
-🛠️ **Herramientas de seguridad:** Nessus, OpenVAS, RiskLens.  
-💻 **Plataformas de aprendizaje:** Coursera, Udemy, Cybrary.  
+#### 4.1 Vulnerabilidades Comunes (OWASP Top 10) 🤕
+*   Inyección SQL 💉
+    *   Código Vulnerable ❌ vs Solución ✅
+    *   Ejercicio: Lab Inyección SQL (WebGoat) 💻
 
----
+#### 4.2 Ataques Cadena de Suministro 💣
+*   Ejemplo: SolarWinds 💥 (18.000 Afectados 😱)
+    *   Lecciones 💡: Firmas Digitales 🔑, SBOM 📜
+*   Ejercicio: Análisis SBOM 🔍
 
-## 🔚 Conclusiones
-La gestión de riesgos es clave para **proteger organizaciones** contra ciberataques. Con los conocimientos adquiridos en este módulo, estarás mejor preparado para enfrentar los desafíos de la **seguridad informática**.
+## Parte III: Herramientas y Estrategias de Defensa 🛡️
 
----
+### Capítulo 5: Seguridad en Redes y Nube 🌐
 
+#### 5.1 Arquitecturas de Red Seguras 🧱
+*   Segmentación y Microsegmentación ✂️ (Ej: IoT en VLAN 🏰)
+*   NGFW: Guardián Avanzado 💂
+    *   Funciones Clave: Filtrado, IPS, SSL 🧠
+    *   Ejercicio: Reglas pfSense 🔥
 
+#### 5.2 Seguridad en la Nube ☁️
+*   Modelo Responsabilidad Compartida 🤝: IaaS 💻 vs SaaS 📧
+*   Riesgos Comunes ⚠️:  Configuraciones Err
 
+    *   Ejercicio: Auditoría AWS ☁️
+
+### Capítulo 6: IA en Ciberseguridad 🤖
+
+#### 6.1 IA Defensiva: Protección Automatizada 🛡️
+*   Detección de Anomalías 👽 (Ej: Darktrace 👀)
+    *   Caso: Exfiltración de Datos 🚨
+*   Respuesta Automatizada (SOAR) 🚀
+    *   Flujo de Trabajo Típico 🤖
+
+#### 6.2 IA Adversaria: Amenazas Emergentes 😈
+*   Deepfakes 🎭 (Ej: CEO Falso 💸)
+*   Ejercicio: Deepfake Simple 🧪
+
+## Parte IV: Gestión de Incidentes y Ética 🤝
+
+### Capítulo 7: Respuesta a Incidentes y Recuperación 🚑
+
+#### 7.1 Ciclo de Vida del Incidente (NIST) ⛑️
+*   Fases: Preparación 🏋️‍♀️, Detección 🚨, Contención 🚧, Erradicación 💥, Recuperación 🔄, Lecciones 🎓
+
+#### 7.2 Caso: Colonial Pipeline (2021) ⛽
+*   Ataque: Ransomware DarkSide
+*   Lecciones 💡: Backups Offline 💾, Comunicación 🗣️
+*   Ejercicio: Simulación Respuesta Ransomware 🎭
+
+### Capítulo 8: Ética y Hacktivismo ⚖️
+
+#### 8.1 Dilemas Éticos 🤔
+*   Responsible Disclosure 📣 (Ej: Google Project Zero)
+*   Debate: Hackeo Ético Gubernamental 🗣️
+
+#### 8.2 Hacktivismo: Activismo Digital 💻
+*   Ejemplos: Anonymous 🎭, WikiLeaks 📰
+*   Ejercicio: Análisis Ético Snowden 🗣️
+
+## Apéndices: Recursos Adicionales 📚
+
+### A. Profundizar 🚀
+*   Certificaciones 🏆: CISSP ⭐, CEH 🦹
+*   Plataformas Entrenamiento 🎮: Hack The Box 🕹️, TryHackMe 🧠
+
+### B. Laboratorios Avanzados 🛠️
+*   SIEM con ELK Stack ⚙️
+*   Análisis Forense con Autopsy 🕵️‍♀️
+
+### C. Plantillas y Checklists 📋
+*   Plan Respuesta Incidentes 📝
+*   Checklist NIST CSF ✅
+
+## 🛠️ Manual de Ejercicios Prácticos (Resumen) 🚀
+
+### Ejercicio 1: Phishing con GoPhish 🎣
+*   Objetivo: Campaña de concienciación.
+*   Herramientas: GoPhish, Servidor.
+*   Pasos: Instalar, Perfil Remitente, Página Falsa, Correo, Destinatarios, Lanzar, Monitorizar, Capacitar 🧑‍🏫
+
+### Ejercicio 2: SIEM con ELK Stack ⚙️
+*   Objetivo: Analizar logs de red.
+*   Herramientas: Ubuntu, ELK Stack.
+*   Pasos: Instalar Java, Elasticsearch, Kibana, Logstash, Configurar Logstash, Enviar Logs, Visualizar en Kibana 📊
+
+### Ejercicio 3: Análisis Malware con Cuckoo 🕵️‍♀️
+*   Objetivo: Identificar comportamiento malicioso.
+*   Herramientas: Ubuntu, Cuckoo, Windows VM.
+*   Pasos: Dependencias, Clonar Cuckoo, Configurar, Iniciar Cuckoo, Enviar Muestra, Ver Informe 🔍
+
+### Ejercicio 4: Simulación Ransomware con Metasploit 🎭
+*   Objetivo: Entender propagación y contención.
+*   Herramientas: Kali Linux, Windows VM, Metasploit.
+*   Pasos: Payload Metasploit, Listener, Ejecutar Payload, Simular Cifrado, Contención, Recuperación ⛑️
+
+### Ejercicio 5: Firewall con pfSense 🔥
+*   Objetivo: Bloquear tráfico malicioso.
+*   Herramientas: pfSense VM, Clientes Windows/Linux.
+*   Pasos: Instalar pfSense, Interfaz Web, Reglas Bloqueo, Geolocalización, Probar Reglas ✅
