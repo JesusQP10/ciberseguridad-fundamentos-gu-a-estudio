@@ -1,4 +1,4 @@
-### <font color="#00B4D8">Certificación Profesional de Ciberseguridad de Google:</font> Guía de Estudio Integral en Español
+## <font color="#00B4D8">Certificación Profesional de Ciberseguridad de Google
 
 
 ## ¡Domina la Ciberseguridad con Recursos Open Source para los 8 Cursos!
