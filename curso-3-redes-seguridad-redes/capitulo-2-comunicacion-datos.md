@@ -1,4 +1,4 @@
-# 📡 Capítulo 2: Comunicación de Datos - El Viaje de la Información (Desarrollo Profundo) 🚀
+# 📡 Capítulo 2: Comunicación de Datos - El Viaje de la Información  🚀
 
 En este capítulo, no solo exploraremos la superficie de la comunicación de datos, sino que nos sumergiremos en las profundidades para entender cada matiz. Desde las ondas que transportan la información hasta los mecanismos que aseguran su llegada sin errores y de manera eficiente, este es el corazón palpitante de las redes. ¡Abróchate el cinturón, porque el viaje al centro de la comunicación de datos está a punto de comenzar! 💻
 
