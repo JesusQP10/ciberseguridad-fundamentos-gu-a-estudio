@@ -2,8 +2,8 @@
 
 Este capítulo es **fundamental** para establecer los cimientos de la ciberseguridad. Aquí, exploraremos los conceptos esenciales de la **Tríada CIA** y cómo se relacionan con la **Gestión de Activos**, dos pilares sobre los que se construye la protección de cualquier sistema de información.
 
-<img scr="https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTN0dXN3ajRnbGxjYzh6ZTY1eDZpZGZhN3ZjazlucmI1amJlODNhOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JmJMzlXOiI0dq/giphy.gif" width="400px">
----
+![](https://media0.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTN0dXN3ajRnbGxjYzh6ZTY1eDZpZGZhN3ZjazlucmI1amJlODNhOSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/JmJMzlXOiI0dq/giphy.gif)
+
 
 #### 1.1 Tríada CIA: Pilares de Seguridad 💖
 
