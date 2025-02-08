@@ -4,7 +4,8 @@
 
 La computación en la nube ha revolucionado la forma en que las organizaciones gestionan y utilizan la tecnología, ofreciendo **escalabilidad, flexibilidad y eficiencia sin precedentes**.  Sin embargo, este nuevo paradigma también introduce **desafíos únicos en materia de seguridad**.  La **"nube" no es inherentemente insegura, pero *tampoco es inherentemente segura*.**  La seguridad en la nube es una **responsabilidad compartida entre el proveedor de la nube y el cliente**, y comprender este modelo de responsabilidad compartida es fundamental para proteger los activos digitales en entornos cloud.
 
----
+<img src="https://media1.giphy.com/media/v1.Y2lkPTc5MGI3NjExcHkzZ2JzYjA3N2liYWZ5eXduc2V4ZGVsaWYyZzZpbDZoZTY2czhzeSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/pIERkafRRq5i6qTH30/giphy.gif" width="200" height="150">
+
 
 ### 3.1.1 ¿Qué Implica la Seguridad en la Nube?  Definición y Alcance
 
