@@ -2,11 +2,15 @@
 
 
 ## ¡Domina la Ciberseguridad con Recursos Open Source para los 8 Cursos!
-## <p align="center"><kbd> 🛡️ </kbd>  <kbd> 🔒 </kbd> <kbd> 🔑 </kbd> <kbd> 💻 </kbd> <kbd> ⚡ </kbd></p>
+# <p align="center"> 🛡️  🔒  🔑  💻  ⚡</p>
 
 **Bienvenido/a al recurso  en español para la Certificación Profesional de Ciberseguridad de Google.**  Este repositorio Open Source ha sido creado con el objetivo de proporcionar la **guía de estudio más completa, clara y accesible** para superar con éxito los **8 cursos** que componen esta prestigiosa certificación profesional.
 
-<img src="https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExY2NyODR0aTk5Y2hzbXFxNG04OHJia2ZjaDM5dGF0YnBjdnY2enV1bSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/RbDKaczqWovIugyJmW/giphy.gif" width="400px">
+<div align="center">
+
+<img src="https://github.com/user-attachments/assets/72fab3c3-2ee2-4277-8305-54c33bede928" width="500px">
+
+</div>
 
 **Tabla de Contenidos**
 
