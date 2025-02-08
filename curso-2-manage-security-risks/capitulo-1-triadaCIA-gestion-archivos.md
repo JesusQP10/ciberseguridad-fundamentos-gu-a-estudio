@@ -1,4 +1,4 @@
-### Capítulo 1: Tríada CIA y Gestión de Activos 🔑
+## Capítulo 1: Tríada CIA y Gestión de Activos 🔑
 
 Este capítulo es **fundamental** para establecer los cimientos de la ciberseguridad. Aquí, exploraremos los conceptos esenciales de la **Tríada CIA** y cómo se relacionan con la **Gestión de Activos**, dos pilares sobre los que se construye la protección de cualquier sistema de información.
 
@@ -370,9 +370,46 @@ Una vez entendidos los pilares de la Tríada CIA, es esencial aplicar estos prin
 <br>
 
 ---
+## Ejemplo de Matriz de Criticidad de Activos para Empresa de E-commerce: Solución Propuesta 📝
 
+Esta tabla presenta un **ejemplo de solución** para la tarea de clasificación de activos de una empresa de comercio electrónico de ropa y accesorios online con 100 empleados.  Recordemos que la tarea consistía en clasificar los activos según su **criticidad** (Alta, Media, Baja), justificando brevemente la elección para cada uno, considerando el impacto potencial de su pérdida o compromiso en la operación del negocio.
 
+**Nota Importante:**  Esta es **solo una posible solución**.  La clasificación de criticidad puede ser **subjetiva** y variar ligeramente dependiendo de diferentes interpretaciones y perspectivas sobre el negocio. El objetivo principal del ejercicio es **entender el proceso de análisis de criticidad** y la **lógica detrás de la clasificación**, más que llegar a una respuesta "única y correcta".
+<br>
+
+| Activo                                    | Criticidad (Alta/Media/Baja) | Justificación                                                                                                                  |
+| ----------------------------------------- | ---------------------------- | ----------------------------------------------------------------------------------------------------------------------------- |
+| Base de datos de clientes                 | **Alta**                     | Contiene información personal y sensible de clientes (datos bancarios, direcciones, historial de compras). Su filtración generaría graves daños reputacionales, multas por RGPD, y pérdida de confianza. Esencial para la operación del negocio. |
+| Sistema de procesamiento de pagos         | **Alta**                     | Crítico para la operatividad del negocio online. Su fallo detendría las ventas, generando pérdidas económicas directas e inmediatas. Además, la seguridad es fundamental para evitar fraudes y problemas legales. |
+| Servidor web de la tienda online           | **Alta**                     | Es la cara visible del negocio online. Su indisponibilidad impide la venta de productos y acceso al catálogo. Impacto directo en ingresos y reputación online.                                    |
+| Servidor de correo electrónico             | **Media**                    | Importante para la comunicación interna y con clientes (confirmaciones de pedido, atención al cliente). Su caída afecta la eficiencia operativa y la comunicación, pero no detiene la actividad principal del negocio inmediatamente. |
+| Blog corporativo de la empresa              | **Baja**                     | Principalmente enfocado en marketing y SEO. Su pérdida afecta la estrategia de marketing online y la imagen, pero no paraliza la operación principal del negocio ni expone datos críticos directamente. |
+| Cuenta de redes sociales de la empresa     | **Baja**                     | Similar al blog,  afecta la imagen y comunicación de marketing. Su compromiso podría dañar la reputación, pero el impacto directo en la operación principal es bajo. Recuperable relativamente rápido. |
+| PCs de empleados de atención al cliente   | **Media**                    | Contienen información sensible de clientes (temporalmente en caché, historial de interacciones). Su compromiso puede llevar a filtraciones de datos y afectar la atención al cliente si no pueden operar. |
+| PCs de empleados del departamento de marketing | **Baja**                     | Principalmente contienen información de marketing y campañas. La pérdida afecta la productividad del departamento y posiblemente planes de marketing, pero no es crítico para la operación del negocio en sí. |
+| Servidor de archivos compartidos interno | **Media**                    | Puede contener documentos importantes para la operación interna, pero no es crítico para la venta directa o procesamiento de pagos. La indisponibilidad afecta la productividad interna y podría contener información sensible interna. |
+| Sistema CRM (Customer Relationship Management) | **Alta**                     | Centraliza la gestión de la relación con clientes, historial de interacciones, datos de ventas, y análisis de clientes. Su pérdida afecta gravemente la capacidad de gestionar clientes, ventas, y estrategias comerciales. Contiene datos sensibles de clientes. |
 
 <br>
+
+**Contexto y Razonamiento Detallado:**
+
+*   **Activos de Criticidad Alta:**
+    *   **Base de datos de clientes:**  Considerada de criticidad **Alta** debido al **impacto catastrófico** que tendría la filtración de la información sensible que contiene.  La pérdida de confianza del cliente, las multas regulatorias y el daño reputacional serían muy graves.
+    *   **Sistema de procesamiento de pagos:** Clasificado como **Alta** criticidad por su **papel fundamental en la generación de ingresos**.  Su fallo detendría las ventas online y generaría pérdidas económicas inmediatas, además de riesgos de fraude.
+    *   **Servidor web de la tienda online:** También de criticidad **Alta** ya que es la **"fachada" del negocio online**. Su indisponibilidad impide a los clientes acceder a la tienda y realizar compras, impactando directamente en los ingresos y la reputación.
+
+*   **Activos de Criticidad Media:**
+    *   **Servidor de correo electrónico:**  Clasificado como **Media** porque aunque es importante para la comunicación, su fallo **no detiene la operación principal del negocio** de forma inmediata.  Afecta la eficiencia operativa y la comunicación, pero no es tan crítico como los activos de criticidad Alta.
+    *   **PCs de empleados de atención al cliente:**  De criticidad **Media** porque su compromiso **afecta la calidad del servicio al cliente** y podría llevar a la exposición de información sensible. Sin embargo, no paralizan la operación central del negocio.
+    *   **Servidor de archivos compartidos interno:**  Criticidad **Media** ya que su indisponibilidad **afecta la productividad interna** y podría exponer información interna sensible.  No es crítico para la venta directa al cliente online.
+    *   **Sistema CRM (Customer Relationship Management):**  Aunque muy importante, se clasifica como **Alta** debido a su **impacto significativo en la gestión de clientes y estrategias comerciales**, y porque **contiene datos sensibles de clientes**, aunque su impacto no sea tan inmediato en la operación diaria como el sistema de pagos o el servidor web.
+
+*   **Activos de Criticidad Baja:**
+    *   **Blog corporativo de la empresa:**  De criticidad **Baja** ya que su pérdida afecta principalmente al **marketing y la imagen**, pero no la operación principal del negocio.
+    *   **Cuenta de redes sociales de la empresa:**  Similar al blog, de criticidad **Baja** porque impacta en la **imagen y comunicación de marketing**, pero no en la operación principal y es recuperable relativamente rápido.
+    *   **PCs de empleados del departamento de marketing:** Criticidad **Baja** porque la pérdida afecta la **productividad del departamento de marketing**, pero no es crítico para la operación general del negocio online.
+
+
 
 ¡He añadido más **espacio en blanco**, resaltado **palabras clave en negrita**, y mantenido una **estructura clara** con encabezados y listas para que sea más fácil de leer en GitHub!  Espero que este formato te parezca **más legible y bonito**. ¡Avísame si necesitas algún ajuste adicional!
