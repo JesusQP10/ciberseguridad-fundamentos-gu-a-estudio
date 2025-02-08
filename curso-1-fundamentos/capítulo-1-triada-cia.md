@@ -1,8 +1,9 @@
 # 🕶️ 🔐 🤫Capítulo 1: La Tríada CIA – El Pilar Fundamental de la Ciberseguridad</h2>
-    <p style="font-size:1.1em; margin-bottom: 12px;">El modelo que define los objetivos esenciales de la seguridad de la información</p>
-    🔑 **Confidencialidad | Integridad | Disponibilidad**
-    <br>
-    
+![](https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExaTd6MWJkaThzNmc2bGczYzF5emRmOHBrN2VqMHNobGQ4Yzl0eTI5diZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9cw/efCMCDdkCr53cdRZyU/giphy.gif)
+
+## Capítulo 1: Tríada CIA y Gestión de Activos 🔑
+
+Este capítulo es **fundamental** para sentar las bases de la ciberseguridad...
     <p style="font-size:0.9em; margin-top: 5px; font-style: italic;">Visualización de la Tríada CIA: Los tres pilares interdependientes de la seguridad de la información.</p>
 </div>
 
