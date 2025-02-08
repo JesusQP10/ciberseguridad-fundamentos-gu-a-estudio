@@ -1,4 +1,4 @@
-# 🏗️ Capítulo 3: Arquitectura de Redes - Los Planos de la Interconexión 🌐 (Desarrollo Profundo)
+# 🏗️ Capítulo 3: Arquitectura de Redes - Los Planos de la Interconexión 🌐 
 
 En este capítulo, nos adentraremos en la **arquitectura de redes**, que define la estructura, organización y principios de diseño de las redes de comunicación. Exploraremos los **modelos de referencia** que sirven como planos conceptuales, y los **protocolos** que implementan las funciones en cada nivel de la arquitectura.  Comprender la arquitectura de redes es esencial para entender cómo interactúan los diferentes componentes y cómo se logra la comunicación eficiente y fiable en la vasta y compleja red global. ¡Comencemos a construir nuestra comprensión de la arquitectura de redes, capa por capa! 💻
 
