@@ -1,6 +1,9 @@
 # 🌐 Fundamentos de las Redes 🚀
 
 Este capítulo te sumergirá en el fascinante mundo de las redes informáticas. Desde los conceptos más básicos hasta los componentes físicos, exploraremos juntos cada rincón para que tengas una base sólida y completa. ¡Prepárate para convertirte en un experto en redes! 💻
+<div align="center">
+   <img src="https://media.giphy.com/media/48XYER5dOoyHjCR4eT/giphy.gif?cid=790b7611lsy47v2n0vj42sr7s592vbq0ayq0n7yvjxksxutw&ep=v1_stickers_search&rid=giphy.gif&ct=s" width="400" height="350">
+</div>
 
 ## 1. 🤔 ¿Qué es una Red?
 
@@ -74,39 +77,42 @@ La **topología de red** define la **estructura física o lógica** de una red, 
 
     * **Bus 🚃:**
         * **Descripción:** Dispositivos conectados a un **cable central** (bus). Comunicación por el bus, todos "escuchan".
-        * **[Image of Bus Topology]**
+        
         * **Ventajas:**  Sencilla, económica para redes pequeñas.
         * **Desventajas:** Poca fiabilidad (falla el cable, falla la red), rendimiento limitado (colisiones), difícil resolver problemas, seguridad limitada.
         * **Estado:**  **Obsoleta** ❌, rara vez usada.
 
     * **Estrella 🌟:**
         * **Descripción:** Dispositivos conectados a un **dispositivo central** (hub o switch). Toda comunicación pasa por el central.
-        * **[Image of Star Topology]**
+        
         * **Ventajas:** Alta fiabilidad (falla un dispositivo, no toda la red), fácil agregar/quitar dispositivos, fácil diagnosticar problemas, mejor rendimiento que bus, seguridad mejorada (con switches).
         * **Desventajas:** Dependencia del dispositivo central (punto único de fallo), mayor costo (requiere dispositivo central).
         * **Uso:**  La más común ✅ en LANs modernas, cableadas e inalámbricas (WiFi es estrella lógica).
 
     * **Anillo 💍:**
         * **Descripción:** Dispositivos en **anillo cerrado**. Datos en una dirección, de dispositivo a dispositivo hasta el destinatario.
-        * **[Image of Ring Topology]**
+        *
         * **Ventajas:** Rendimiento relativamente bueno, relativamente fácil de implementar (redes pequeñas).
         * **Desventajas:** Poca fiabilidad (falla un dispositivo o conexión, puede caer la red), difícil resolver problemas, agregar/quitar dispositivos puede interrumpir.
         * **Estado:**  **Menos común** ➖, usada en tecnologías específicas como FDDI y Token Ring (obsoleta).
 
     * **Malla 🕸️:**
         * **Descripción:** Cada dispositivo conectado **a uno o más vecinos**. Malla completa (todos con todos) o parcial (solo algunos vecinos).
-        * **[Image of Mesh Topology]**
+        
         * **Ventajas:**  Extrema fiabilidad y tolerancia a fallos (múltiples rutas), alto rendimiento, seguridad mejorada.
         * **Desventajas:** Alto costo (muchas conexiones), administración compleja.
         * **Uso:** Redes WAN grandes, telecomunicaciones, militares, internet (núcleo), redes inalámbricas ad-hoc, redes de sensores.
 
     * **Híbrida 🧬:**
         * **Descripción:** Combina **dos o más topologías básicas**.
-        * **[Image of Hybrid Topology]**
+   
         * **Ejemplos:** Estrella-Bus, Estrella-Anillo, Jerárquica (Árbol - estrella jerárquica común en empresas).
         * **Ventajas:**  Flexibilidad para adaptarse a necesidades.
         * **Desventajas:**  Más compleja de diseñar y administrar que las básicas.
         * **Uso:**  Común en redes grandes y complejas: empresariales, proveedores de internet.
+<div align="center">
+   <img src="https://github.com/user-attachments/assets/8b2864c6-450c-4132-84ed-61906f1f98f2">
+</div>
 
 ## 4. 💬 Protocolos de Comunicación (TCP/IP, HTTP, FTP, SMTP)
 
@@ -165,7 +171,12 @@ Un **protocolo de comunicación** 📜 es un conjunto de **reglas** que gobierna
         5. **Sesión 🤝:** Gestiona conexiones y sesiones entre aplicaciones. Establece, coordina y finaliza sesiones. Ejemplos: Poco usado directamente, funciones en otras capas.
         6. **Presentación 🎁:** Formato de datos, cifrado y compresión. Convierte datos a formato comprensible. Ejemplos: SSL/TLS, MPEG, JPEG.
         7. **Aplicación 💻:** Interfaz con aplicaciones de usuario. Servicios de red a aplicaciones. Ejemplos: HTTP, FTP, SMTP, DNS.
-    * **[Image of OSI Model]**
+
+<div align="center">
+   
+   <img src="https://github.com/user-attachments/assets/108010b2-2ba3-4368-9f19-1765b00d0b6c" width="600" height="550">
+
+</div>
     * **Propósito:** Estandarizar funciones de red, facilitar comprensión y diseño modular, interoperabilidad.
 
 * **Modelo TCP/IP (Modelo de Internet) 🌐:**
@@ -175,8 +186,7 @@ Un **protocolo de comunicación** 📜 es un conjunto de **reglas** que gobierna
         2. **Internet 🌍:** Similar a Red de OSI. Enrutamiento de paquetes, direccionamiento lógico (IP). Ejemplo: IP, ICMP.
         3. **Transporte 🚚:** Similar a Transporte de OSI. Transmisión confiable (TCP) o no (UDP), control de flujo y congestión. Ejemplos: TCP, UDP.
         4. **Aplicación 💻:** Sesión, Presentación y Aplicación de OSI combinadas. Servicios de red a aplicaciones de usuario. Ejemplos: HTTP, FTP, SMTP, DNS, SSH, Telnet.
-    * **[Image of TCP/IP Model]**
-    * **[Image of OSI Model vs TCP/IP Model Comparison Table]**
+   
     * **Propósito:** Modelo operativo de la arquitectura de internet. Más práctico e implementable que OSI.
 
 **Tabla Comparativa: Modelo OSI vs Modelo TCP/IP**
@@ -200,28 +210,28 @@ Un **protocolo de comunicación** 📜 es un conjunto de **reglas** que gobierna
 * **Cables (Medio de Transmisión Cableado) 🧵:**
     * **Función:**  Medio físico para transmitir señales (eléctricas o ópticas) que representan datos.
     * **Tipos Comunes:**
-        * **Cable de Par Trenzado (Twisted Pair) 꼬인쌍선:** Cobre con pares trenzados (reduce interferencias). Tipos: UTP (No Apantallado), STP (Apantallado). Conectores: RJ45. Usos: LANs Ethernet.
+        * **Cable de Par Trenzado (Twisted Pair) :** Cobre con pares trenzados (reduce interferencias). Tipos: UTP (No Apantallado), STP (Apantallado). Conectores: RJ45. Usos: LANs Ethernet.
         * **Cable Coaxial 🪢:** Conductor central de cobre, aislamiento y blindaje metálico. Usos: Ethernet antiguo (Bus), TV por cable. Conectores: BNC, F.
         * **Fibra Óptica 🔆:** Transmite datos por pulsos de luz en hebras de vidrio/plástico. Tipos: Monomodo (larga distancia), Multimodo (corta distancia). Conectores: LC, SC, ST. Usos: WANs, backbone, LANs de alta velocidad.
     * **Características a considerar:** Velocidad, distancia, costo, inmunidad al ruido, seguridad.
 
 * **Hubs 🎛️:**
     * **Función:** Dispositivo de **capa física (Capa 1 OSI)**. **Repetidor** o **concentrador**. Recibe señales de un puerto y **reenvía a todos los demás puertos**. **No "entiende" direcciones MAC ni IP**.
-    * **[Image of Network Hub]**
+   
     * **Funcionamiento (básico):**  Recibe datos y los copia/retransmite a **todos** los dispositivos conectados.
     * **Desventajas:** **Colisiones** frecuentes, **ancho de banda compartido**, **seguridad limitada**.
     * **Estado:** **Obsoletos** ❌, raramente usados. Reemplazados por switches.
 
 * **Switches 🎚️:**
     * **Función:** Dispositivo de **capa de enlace de datos (Capa 2 OSI)**. **Inteligente**. **"Aprende" direcciones MAC** y crea **tabla MAC**.
-    * **[Image of Network Switch]**
+    
     * **Funcionamiento (avanzado):**  Examina dirección MAC destino. Si está en tabla MAC, **envía datos solo al puerto** del destinatario. Si no, puede **difundir** (broadcast) para aprender ubicación.
     * **Ventajas (vs hubs):** **Menos o sin colisiones** (switches modernos full-duplex), **mayor ancho de banda efectivo** (dedicado por conexión), **mejor rendimiento**, **seguridad mejorada**.
     * **Uso común:**  Dispositivos centrales en LANs modernas, cableadas e inalámbricas (puntos de acceso WiFi usan switches internamente).
 
 * **Routers 🎛️:**
     * **Función:** Dispositivo de **capa de red (Capa 3 OSI)**. **"Entienden" direcciones IP** y **redes**. **Enrutamiento de paquetes** entre **diferentes redes**. Conectan LANs a WANs (internet), o interconectan LANs.
-    * **[Image of Network Router]**
+    
     * **Funcionamiento (complejo):**
         * **Tabla de Enrutamiento 🗺️:** Información sobre redes y mejores rutas.
         * **Enrutamiento de Paquetes 📦:** Examina IP destino, usa tabla de enrutamiento para determinar siguiente "salto".
@@ -235,10 +245,10 @@ Un **protocolo de comunicación** 📜 es un conjunto de **reglas** que gobierna
     * **Uso fundamental:** Esenciales para conectar redes y permitir comunicación, especialmente en internet.
 
 * **Otros Componentes Físicos (Mencionados brevemente):**
-    * **Puntos de Acceso Inalámbricos (Access Points - APs) 📡:** Dispositivos WiFi para conectar inalámbricos a red cableada. Switches inalámbricos internamente. [Image of Wireless Access Point]
-    * **Tarjetas de Interfaz de Red (Network Interface Cards - NICs) 🎐:** Tarjetas de red en dispositivos (computadoras, servidores) para conectarlos. Ethernet (cableadas) o WiFi (inalámbricas). [Image of Network Interface Card]
-    * **Firewalls 🔥:** Dispositivos de seguridad para controlar tráfico, bloquear no autorizado, permitir autorizado. Protegen la red. [Image of Network Firewall]
-    * **Servidores 🖥️:** Computadoras potentes que ofrecen servicios a la red (web, email, archivos, bases de datos, etc.). [Image of Network Server]
+    * **Puntos de Acceso Inalámbricos (Access Points - APs) 📡:** Dispositivos WiFi para conectar inalámbricos a red cableada. Switches inalámbricos internamente. 
+    * **Tarjetas de Interfaz de Red (Network Interface Cards - NICs) 🎐:** Tarjetas de red en dispositivos (computadoras, servidores) para conectarlos. Ethernet (cableadas) o WiFi (inalámbricas).
+    * **Firewalls 🔥:** Dispositivos de seguridad para controlar tráfico, bloquear no autorizado, permitir autorizado. Protegen la red. 
+    * **Servidores 🖥️:** Computadoras potentes que ofrecen servicios a la red (web, email, archivos, bases de datos, etc.).
     * **Medios de Conexión Inalámbricos 📻:** Ondas de radio (WiFi, Bluetooth), infrarrojos, microondas, satélites (WAN inalámbricas).
 
 **¡Enhorabuena!** Has completado un recorrido profundo por los fundamentos de las redes. Ahora tienes una base sólida para seguir explorando este apasionante campo. ¡Sigue aprendiendo y experimentando! 🚀🎉
