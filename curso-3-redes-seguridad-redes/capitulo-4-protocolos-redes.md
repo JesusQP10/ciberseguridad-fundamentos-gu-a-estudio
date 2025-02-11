@@ -13,7 +13,7 @@
     *   Ejercicios Resueltos
 4.  **🌐Redes privadas virtuales (VPN)** 
     *   Ejercicios Resueltos
-5.  **🛡️ Vídeo: Zonas de seguridad** 
+5.  **🛡️ Zonas de seguridad** 
     *   Ejercicios Resueltos
 6.  **🗂️ División en subredes y CIDR** 
     *   Ejercicios Resueltos
@@ -161,7 +161,7 @@ Además del cortafuegos, una red empresarial debería considerar:
 
 ---
 
-### 🌐 Vídeo: Redes privadas virtuales (VPN) 
+### 🌐 Redes privadas virtuales (VPN) 
 
 *   **🔒 Privacidad y Seguridad en el Mundo Online: VPNs al Rescate - ¡En Profundidad!**  Este vídeo no solo te introduce a las **VPNs (Redes Privadas Virtuales)**, sino que profundiza en cómo se han convertido en una herramienta **indispensable** para la seguridad y la privacidad en la era digital.  Vamos a desglosar su funcionamiento y aplicaciones con más detalle.
 
