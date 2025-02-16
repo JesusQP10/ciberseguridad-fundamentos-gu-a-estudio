@@ -20,7 +20,7 @@
 4.  🧱 [Estructura de la Guía: Los 8 Cursos de la Certificación](#estructura-de-la-guía-los-8-cursos-de-la-certificación)
     *   1️⃣ *[Curso 1: Fundamentos de la Ciberseguridad](#curso-1-fundamentos)- Introducción a conceptos básicos, amenazas y principios de seguridad.*
     *   2️⃣ *[Curso 2: Gestión de riesgos de seguridad](#curso-2-redes-y-ciberseguridad-en-el-mundo-moderno)  - Redes, protocolos, modelo OSI y seguridad en entornos de red.*
-    *   3️⃣ *[Curso 3: Conectar y Proteger: Redes y Seguridad de Red](#curso-3-sistemas-operativos-y-tú-convirtiéndote-en-un-usuario-eléctrico) * - Sistemas operativos (Linux, Windows), línea de comandos y uso seguro del SO.*
+    *   3️⃣ *[Curso 3: Conectar y Proteger: Redes y Seguridad de Red](#curso-3-sistemas-operativos-y-tú-convirtiéndote-en-un-usuario-eléctrico)  - Sistemas operativos (Linux, Windows), línea de comandos y uso seguro del SO.*
     *   4️⃣ *[Curso 4: Administración de Sistemas y Servicios de Infraestructura](#curso-4-administración-de-sistemas-y-servicios-de-infraestructura)  - Administración de sistemas, servidores, servicios de red e infraestructura IT.*
     *   5️⃣ *[Curso 5: Activos de Seguridad de Red y Endpoints](#curso-5-activos-de-seguridad-de-red-y-endpoints)  - Firewalls, IDS/IPS, VPNs, seguridad de endpoints y protección de perímetro.*
     *   6️⃣ *[Curso 6: Seguridad de Datos, Aplicaciones y la Nube](#curso-6-seguridad-de-datos-aplicaciones-y-la-nube)  - Seguridad de datos, bases de datos, desarrollo seguro de aplicaciones y seguridad cloud.*
