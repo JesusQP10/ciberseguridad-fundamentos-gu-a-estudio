@@ -1,4 +1,9 @@
-# 🚀 Curso 4: Endurecimiento de la Seguridad de Redes y Nube
+# 🚀 Curso 4: Endurecimiento del Sistema Operativo
+
+<div align="center">
+   <img src="https://w.wallhaven.cc/full/4y/wallhaven-4y3ep7.jpg" width="600" height="550">
+</div>
+
 
 ## 📚 Contenido del Capítulo
 
