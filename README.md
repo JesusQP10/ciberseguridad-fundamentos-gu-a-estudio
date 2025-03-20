@@ -1,10 +1,10 @@
 ## <font color="#00B4D8">Certificación Profesional de Ciberseguridad de Google
 
 
-## ¡Domina la Ciberseguridad con Recursos Open Source para los 8 Cursos!
+## ¡Domina la Ciberseguridad con estos 8 Cursos!
 # <p align="center"> 🛡️  🔒  🔑  💻  ⚡</p>
 
-**Bienvenido/a al recurso  en español para la Certificación Profesional de Ciberseguridad de Google.**  Este repositorio Open Source ha sido creado con el objetivo de proporcionar la **guía de estudio más completa, clara y accesible** para superar con éxito los **8 cursos** que componen esta prestigiosa certificación profesional.
+**Bienvenido/a al recurso para la Certificación Profesional de Ciberseguridad de Google.**  Este repositorio Open Source ha sido creado con el objetivo de proporcionar la **guía de estudio más completa, clara y accesible** de los **8 cursos** que componen esta prestigiosa certificación profesional.
 
 <div align="center">
 
@@ -37,7 +37,7 @@
 
 ## Sobre esta Guía de Estudio
 
-¡Hola! Soy JesúsQP y actualmente estoy cursando la **Certificación Profesional de Ciberseguridad de Google en Coursera**.  Motivado por la posibilidad de compartir los conocimientos de esta certificación, he decidido crear esta **guía de estudio Open Source** para apoyar a otros estudiantes y profesionales en su camino hacia la certificación.
+¡Hola! Soy JesúsQP y actualmente estoy cursando la **Certificación Profesional de Ciberseguridad de Google en Coursera**.  Motivado por la posibilidad de compartir los conocimientos de esta certificación para apoyar a otros estudiantes y profesionales .
 
 Este repositorio es, esencialmente, **mi propio temario resumido y en constante crecimiento de cada uno de los 8 cursos de la certificación.**  A medida que vaya avanzando por los cursos, iré **resumiendo y organizando los conceptos clave, las notas de estudio y los recursos más importantes** que encuentro en cada módulo.
 
@@ -65,7 +65,7 @@ En esta guía de estudio, encontrarás para cada uno de los 8 cursos de la certi
 
 ## Estructura de la Guía: Los 8 Cursos de la Certificación
 
-Esta guía está organizada siguiendo la estructura de los 8 cursos de la Certificación Profesional de Ciberseguridad de Google.  Cada curso tiene su propia carpeta dentro de este repositorio, y dentro de cada carpeta de curso, encontrarás los capítulos correspondientes en formato Markdown (.md).
+Esta guía está organizada siguiendo la estructura de los 8 cursos de la Certificación Profesional de Ciberseguridad de Google.  Cada curso tiene su propia carpeta dentro de este repositorio, y dentro de cada carpeta de curso, encontrarás los capítulos correspondientes .
 
 A continuación, se presenta la estructura de la certificación y los enlaces a las carpetas de cada curso dentro de esta guía:
 
@@ -84,10 +84,8 @@ A continuación, se presenta la estructura de la certificación y los enlaces a 
 
 *   **Cobertura Completa de los 8 Cursos:**  Una guía centralizada para todo el material de estudio de la Certificación Profesional de Google.
 *   **Contenido Profundo y Detallado:**  Explicaciones "super desarrolladas" que van más allá de lo básico para asegurar una comprensión sólida.
-*   **Formato Markdown Optimizada para GitHub:**  Lectura cómoda, fácil navegación y perfecta para la colaboración Open Source.
 *   **Enfoque Práctico con Ejemplos y Casos de Estudio:**  Conexión de la teoría con la aplicación real en el mundo de la ciberseguridad.
 *   **Recursos Adicionales para Ampliar Conocimientos:**  Enlaces a documentación, herramientas y recursos externos relevantes.
-*   **Licencia Open Source para Libre Uso y Contribución:**  Fomenta la colaboración, la mejora continua y el acceso abierto a la educación en ciberseguridad.
 *   **Recurso en Español:**  Dirigido a la comunidad hispanohablante, ofreciendo un material de estudio de alta calidad en nuestro idioma.
 *   **Proyecto en Constante Evolución:**  ¡Esta guía está pensada para crecer y mejorar con la ayuda de la comunidad!
 
